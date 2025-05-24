@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx vite build",
     "preview": "vite preview"
   },
- "dependencies": {
+  "dependencies": {
     "@supabase/supabase-js": "^2.49.8",
     "cloudinary": "^2.6.1",
     "html2pdf.js": "^0.10.3",
@@ -15,6 +15,7 @@
     "react-dom": "^18.2.0",
     "replicate": "^1.0.1",
     "vite": "^5.0.0"
+    
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
