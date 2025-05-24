@@ -1,0 +1,135 @@
+/* === RESET === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* === GLOBAL === */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  color: #fff;
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+/* === CONTAINER === */
+.container {
+  max-width: 720px;
+  width: 100%;
+  background: #2e2b3f;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+}
+
+/* === TITRES === */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #ffb703;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem;
+  text-align: center;
+  color: #ffd369;
+}
+
+h3.brand-name {
+  font-size: 1.3rem;
+  color: #fffb;
+}
+
+/* === PARAGRAPHES === */
+p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* === INPUT === */
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  background: #444056;
+  color: white;
+}
+
+/* === BOUTONS === */
+button {
+  padding: 10px 16px;
+  font-size: 1rem;
+  background-color: #ff914d;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px 5px 10px 0;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #e67330;
+  transform: scale(1.03);
+}
+
+button:disabled {
+  background: #666;
+  cursor: not-allowed;
+}
+
+/* === RÉSULTATS === */
+.result-block {
+  margin-top: 30px;
+  background-color: #3b364e;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.brand-card {
+  margin-top: 10px;
+  background: #4a4563;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #666;
+}
+
+/* === IMAGE === */
+.image-display img {
+  margin-top: 10px;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-placeholder {
+  font-style: italic;
+  color: #ccc;
+  margin-top: 10px;
+}
+
+/* === ERREUR === */
+.error {
+  color: #ff6b6b;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* === ACTIONS === */
+.actions {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
